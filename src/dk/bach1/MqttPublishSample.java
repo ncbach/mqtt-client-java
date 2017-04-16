@@ -13,7 +13,6 @@ public class MqttPublishSample {
         String topic        = "testtopic";
         String content      = "ncb16";
         int qos             = 2;
-        //String broker       = "tcp://85.184.177.223:1883";
         String broker       = "tcp://192.168.1.165:1883";
         String clientId     = "JavaSample";
         MemoryPersistence persistence = new MemoryPersistence();
